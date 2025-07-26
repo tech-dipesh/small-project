@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blog - Personal Finance Tips</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-blue-50 min-h-screen">
+   <header>
+    <h1 class="text-4xl font-bold text-center pt-6 text-blue-800">Welcome to my small website:</h1>
+  </header>
+
+  <nav class="container mx-auto px-6 py-6">
+    <div class="flex justify-between items-center">
+        <span class="text-blue-700 font-bold text-3xl cursor-pointer group flex items-center">Personal Finance</span>
+        <img src="logo.png" alt="Logo" class="ml-2 h-8">
+      
+      <div class="hidden md:flex space-x-6">
+        <a href="home.html" class="relative group py-2 text-blue-600">Home</a>
+        <a href="product.html" class="relative group py-2 text-blue-600">Products</a>
+        <a href="blog.html" class="relative group py-2 text-blue-600">Blog</a>
+        <a href="faq.html" class="relative group py-2 text-blue-600">FAQ</a>
+      </div>
+      <div class="flex items-center space-x-4">
+        <label for="search" class="sr-only">Search</label>
+        <input type="text" id="search" placeholder="Add a errr:" class="px-3 py-2 border">
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mx-auto px-6 py-8">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-blue-800 mb-4">Blog</h1>
+      <p class="text-lg text-gray-600">Coming Soon:</p>
+    </div>
+
+    <article class="bg-white rounded-lg shadow-lg overflow-hidden mb-12 max-w-4xl mx-auto">
+      <div class="aspect-w-16 aspect-h-9 bg-gray-200">
+        <img src="book.jpeg" alt="Best Books to Read in 2025" class="w-full h-64 object-cover">
+      </div>
+      
+      <div class="p-8">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Best Books to Read in 2025</h2>
+        
+        <div class="prose text-gray-700 mb-6">
+          <p class="text-lg mb-4">
+            There are lots of books to read for personal finance, but here are the top 5 books that I recommend you start with this year:
+          </p>
+          
+            <ul class="space-y-3 p-6 bg-blue-50 rounded">
+              <li class="flex items-start">
+                1:
+                <div>
+                  <strong class="text-gray-800">The Psychology of Money</strong>
+                  <p class="text-gray-600">Understand the behavioral aspects of financial decision-making</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                2:
+                <div>
+                  <strong class="text-gray-800">Atomic Habits</strong>
+                  <p class="text-gray-600">Build better financial habits that compound over time</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                3:
+                <div>
+                  <strong class="text-gray-800">Eat That Frog!</strong>
+                  <p class="text-gray-600">Master productivity to maximize your earning potential</p>
+                </div>
+              </li>
+            </ul>
+        </div>
+
+      </div>
+    </article>
+
+  </main>
+
+  <footer class="bg-blue-800 text-white py-8 mt-auto">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-wrap justify-between items-center">
+        <div class="w-full md:w-auto mb-4 md:mb-0">
+          <h3 class="text-xl font-bold">Personal Finance Tips</h3>
+        </div>
+        
+        <div class="flex flex-wrap gap-6 text-sm">
+          <a>Contact Us</a>
+          <a>Privacy Policy</a>
+          <a>Our Products</a>
+          <a>Subscribe</a>
+        </div>
+        
+        <div class="w-full md:w-auto mt-4 md:mt-0 text-center md:text-right text-sm">
+          <p>&copy; 2025 Personal Finance Tips.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
